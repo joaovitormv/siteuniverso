@@ -2,9 +2,11 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
   img {
-    text-align: center;
-    display: block;
+    width: 85%;
   }
+  display: flex;
+  max-width: 1090px;
+  margin: 3rem;
 `
 
 
