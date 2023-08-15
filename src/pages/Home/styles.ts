@@ -5,7 +5,6 @@ export const Section = styled.section`
     width: 85%;
   }
   display: flex;
-  max-width: 1090px;
   margin: 3rem;
 `
 
