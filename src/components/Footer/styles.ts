@@ -4,7 +4,7 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Footer = styled.footer`
   /* Rodapé */
-  background-color: ${colors.primary};
+  background-image: linear-gradient(black, ${colors.primary});
   height: 3rem;
   img {
     height: 100%;

@@ -3,7 +3,7 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Header = styled.header`
   /* Cabeçalho */
-  background-color: ${colors.primary};
+  background-image: linear-gradient(${colors.primary}, black);
   display: flex;
   height: 6rem;
   picture {
