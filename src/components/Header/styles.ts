@@ -13,6 +13,14 @@ export const Header = styled.header`
       height: 100%;
     }
   }
+  @media(max-width: 640px){
+    img{
+      max-width: 60px;
+      max-height: 60px;
+    }
+    height: 4rem;
+  }
+
 `
 
 export const NavBar = styled.nav`
@@ -43,5 +51,9 @@ export const NavBar = styled.nav`
       background-color: ${colors.primarydark};
     }
   }
-
+  @media(max-width: 640px){
+    ul li a {
+      font-size: 1rem;
+    }
+  }
 `

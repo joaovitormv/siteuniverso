@@ -10,4 +10,7 @@ export const Footer = styled.footer`
     height: 100%;
     padding: 0.4rem;
   }
+  @media(max-width: 640px){
+    height: 2rem;
+  }
 `
