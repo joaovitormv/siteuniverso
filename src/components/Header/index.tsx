@@ -44,7 +44,7 @@ export function Header() {
           ) : (
             <ul>
               <li>
-                <Link to="/login">Login</Link>
+                <Link to="/logar">Login</Link>
               </li>
               <li>
                 <Link to="/cadastrar">Cadastrar</Link>
