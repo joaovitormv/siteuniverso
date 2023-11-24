@@ -46,6 +46,16 @@ export const NavBar = styled.nav`
         font-weight: bold;
         font-size: 1.5rem;
       }
+      button{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.2rem;
+        colors: ${colors.primary};
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+      }
     }
     li:hover {
       background-color: ${colors.primarydark};
