@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 import { GlobalStyle } from "./styles/GlobalStyle"
-import Routes from "./routes"
+import{ Rotas } from "./routes"
 import { ToastContainer } from "react-toastify";
 import { AuthProvider } from "./contexts/authContext";
 
@@ -11,7 +11,7 @@ function App() {
       <GlobalStyle />
       <ToastContainer autoClose={3000} />
       <AuthProvider>
-        <Routes />
+        <Rotas />
       </AuthProvider>
     </BrowserRouter>
   )

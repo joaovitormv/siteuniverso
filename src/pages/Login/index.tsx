@@ -9,7 +9,7 @@ import { useAuth } from "../../hooks/authHook";
 import { IErrorResponse, IUser } from "../../interfaces/user.interface";
 import { AxiosError } from "axios";
 
-const Login() {
+export function Login() {
   const navigate = useNavigate();
   const { signIn } = useAuth()
   const [formData, setFormData] = useState<IUser>({

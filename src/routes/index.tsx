@@ -12,7 +12,7 @@ export const Rotas = () => {
         <Route path="/cadastrar" element={<RegisterPage/>}/>
         <Route path="/logar" element={<LoginPage/>}/>
         <Route element={<ProtectedRoute/>}>
-          <Route path="adm" element={<LoginPage/>}/>
+          <Route path="adm" element={<AdmPage/>}/>
         </Route>
       </Route>
     </Routes>
