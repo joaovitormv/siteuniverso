@@ -28,7 +28,7 @@ export function Header() {
             <a href="/">Página Inicial</a>
           </li>
           <li>
-            <a href="/lista">Lista</a>
+            <a href="/list">Fenômenos</a>
           </li>
         </ul>
         {
